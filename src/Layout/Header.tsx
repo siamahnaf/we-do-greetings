@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <header id="header" className={`fixed transition-[background-color] duration-300 ease-in-out top-0 left-0 w-full z-50 ${isScrolled ? "bg-white shadow-[0px_0px_30px_0px_rgba(0,0,0,0.1)]" : ""}`}>
-            <Container className="flex gap-2 items-center py-3">
+            <Container className="flex gap-2 items-center py-0">
                 <Logo />
                 <Nav />
             </Container>
