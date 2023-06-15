@@ -11,14 +11,14 @@ import Bottom from "@/Components/Common/Bottom";
 const Happiness = () => {
     return (
         <section>
-            <Container className="!px-0 py-16 my-16 bg-hover relative overflow-hidden">
+            <div className="py-16 my-16 bg-hover relative overflow-hidden">
                 <Top />
                 <Container className="grid grid-cols-2 gap-8 items-center">
                     <Content />
                     <Images />
                 </Container>
                 <Bottom />
-            </Container>
+            </div>
         </section>
     );
 };

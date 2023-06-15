@@ -17,10 +17,10 @@ module.exports = {
         xl: "1536px", // Extra Large Devices
       },
       colors: {
-        main: "#febf05",
-        hover: "#abce4e",
-        primary: "#f6f6f6",
-        secondary: "#ffecc6",
+        main: "#6ca6cd",
+        hover: "#61d48b",
+        primary: "#ffffe0",
+        secondary: "#def1ff",
         primary_2: "#f4f4f4"
       },
       fontFamily: {

@@ -13,6 +13,7 @@ import Memory from "@/Sections/Memory";
 import Happiness from "@/Sections/Happiness";
 import Testimonial from "@/Sections/Testimonial";
 import Vendor from "@/Sections/Vendor";
+import Faq from "@/Sections/Faq";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Happiness />
       <Testimonial />
       <Vendor />
+      <Faq />
     </Layout>
   );
 };

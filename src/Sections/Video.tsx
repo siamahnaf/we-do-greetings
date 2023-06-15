@@ -11,7 +11,7 @@ import Bottom from "@/Components/Common/Bottom";
 const Video = () => {
     return (
         <section>
-            <Container className="!px-0 relative overflow-hidden">
+            <div className="relative overflow-hidden">
                 <Top />
                 <div className="bg-[url('/images/slides/slide-1.jpg')] bg-cover bg-no-repeat bg-center flex items-center justify-center py-40">
                     <div className="text-center">
@@ -20,7 +20,7 @@ const Video = () => {
                     </div>
                 </div>
                 <Bottom />
-            </Container>
+            </div>
         </section>
     );
 };

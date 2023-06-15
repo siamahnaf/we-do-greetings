@@ -9,7 +9,7 @@ import Curve from "@/Components/Footer/Curve";
 const Footer = () => {
     return (
         <footer>
-            <Container className="!px-0 pt-36 bg-hover relative">
+            <div className="pt-36 bg-hover relative">
                 <Container>
                     <div className="grid grid-cols-3 gap-10">
                         <Touch />
@@ -19,7 +19,7 @@ const Footer = () => {
                     <Copyright />
                 </Container>
                 <Curve />
-            </Container>
+            </div>
         </footer>
     );
 };

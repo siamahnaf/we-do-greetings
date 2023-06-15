@@ -3,7 +3,6 @@ import Image from "next/image";
 import "react-slideshow-image/dist/styles.css";
 
 //Components
-import Container from "@/Components/Common/Container";
 import Content from "@/Components/Hero/Content";
 import Curves from "@/Components/Hero/Curves";
 
@@ -15,7 +14,7 @@ const images = [
 const Hero = () => {
     return (
         <section id="home">
-            <Container className="!px-0 relative">
+            <div className="relative">
                 <Zoom
                     scale={1.5}
                     indicators={false}
@@ -32,7 +31,7 @@ const Hero = () => {
                 </Zoom>
                 <Content />
                 <Curves />
-            </Container>
+            </div>
         </section>
     );
 };
