@@ -3,8 +3,10 @@
 import Container from "@/Components/Common/Container";
 import Content from "@/Components/Video/Content";
 import Play from "@/Components/Video/Play";
-import Top from "@/Components/Video/Top";
-import Bottom from "@/Components/Video/Bottom";
+
+//Other Components
+import Top from "@/Components/Common/Top";
+import Bottom from "@/Components/Common/Bottom";
 
 const Video = () => {
     return (

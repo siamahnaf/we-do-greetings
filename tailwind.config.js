@@ -20,7 +20,8 @@ module.exports = {
         main: "#febf05",
         hover: "#abce4e",
         primary: "#f6f6f6",
-        secondary: "#ffecc6"
+        secondary: "#ffecc6",
+        primary_2: "#f4f4f4"
       },
       fontFamily: {
         oxygen: ['var(--font-oxygen)'],

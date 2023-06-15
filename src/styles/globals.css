@@ -20,3 +20,17 @@
         -webkit-mask-repeat: no-repeat;
     }
 }
+
+
+@layer base {
+    .mask-2 {
+        mask-image: url("/images/happiness/mask.svg");
+        -webkit-mask-image: url("/images/happiness/mask.svg");
+        mask-size: contain;
+        -webkit-mask-size: contain;
+        mask-position: center center;
+        -webkit-mask-position: center center;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+    }
+}
