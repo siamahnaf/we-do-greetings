@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { Icon } from "@iconify/react";
+import Rive from "@rive-app/react-canvas";
 
 const Content = () => {
     return (
         <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-gradient-to-b from-secondary from-0% to-transparent to-30% z-30 text-white">
             <div className="text-center">
+                <div className="h-[150px] w-[800px] mx-auto">
+                    <Rive src="/rive/logo.riv" width="100%" height="100%" />
+                </div>
                 <h5 className="text-7xl font-fredoka">
                     Bring your child’s <br /> dream event to life
                 </h5>
