@@ -8,7 +8,7 @@ import Curve from "@/Components/Footer/Curve";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id="contact">
             <div className="pt-36 bg-hover relative">
                 <Container>
                     <div className="grid grid-cols-3 gap-10">

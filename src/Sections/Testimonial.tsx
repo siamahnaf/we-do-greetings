@@ -6,7 +6,7 @@ import Carousel from "@/Components/Testimonial/Carousel";
 
 const Testimonial = () => {
     return (
-        <section>
+        <section id="testimonial">
             <Container className="py-16">
                 <Header />
                 <Carousel />

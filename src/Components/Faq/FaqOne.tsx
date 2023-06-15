@@ -4,20 +4,20 @@ import { Icon } from "@iconify/react";
 //Data
 const data = [
     {
-        question: "What is the return policy?",
-        answer: "Our return policy allows you to return any item within 30 days of purchase for a full refund. Please ensure that the item is in its original condition with all tags attached."
+        question: "Installation & Removal Hours",
+        answer: "Please note our installation and removal times are both inside and outside of normal business hours. If you need an installation at a specific time on your chosen date this is subject to availability and a small surcharge. The surcharge is due to potential route changes that will be required to install at your specific time."
     },
     {
-        question: "How can I track my order?",
-        answer: "To track your order, simply visit our website and go to the 'Order Tracking' page. Enter your order number and email address, and you will receive real-time updates on the status of your shipment."
+        question: "What areas do you serve?",
+        answer: "We are rapidly rolling out nationally across the UK. Use our postcode search facility to find your local installer. Maybe you’re interested in becoming an installer, if so, please reach out to us at info@wedogreetings.co.uk."
     },
     {
-        question: "What payment methods do you accept?",
-        answer: "We accept all major credit cards, including Visa, Mastercard, and American Express. We also offer the option to pay with PayPal for added convenience."
+        question: "How does it work?",
+        answer: "To reserve your garden greetings you need to submit an order on our website. When filling out the order form, you'll be able to note the receivers’ favourite colours so that we can incorporate them into the Garden Card display. The order system will check our inventory to see that your items are available on your chosen date and, if so, will confirm your reservation. Please note all reservations and selection of inventory is on a first come first served basis. The further in advance you place your order, the more likely we are able to fulfil your request precisely.  Installation and removal times will be based on the volume of installations and removals scheduled for the same date. Subject to availability you can book more specific times for a small extra charge. PLEASE NOTE:  If your order is a gift to a household that is not your own, you MUST make sure to let the homeowners know we will be setting up in their yard. PLEASE NOTE:  You are paying for a rental and not purchasing the signs."
     },
     {
-        question: "Can I cancel my order?",
-        answer: "Yes, you can cancel your order within 24 hours of placing it. Please contact our customer support team with your order details, and they will assist you in canceling the order and issuing a refund."
+        question: "I live in military housing, am I allowed to rent your displays?",
+        answer: "PLEASE NOTE:  Please note we need a flat level area for stand stability. A driveway or porch may also be used if the garden is extremely sloped."
     }
 ];
 

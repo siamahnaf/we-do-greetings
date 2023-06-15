@@ -6,7 +6,7 @@ const data = [
     { name: "Home", id: "home" },
     { name: "About Us", id: "about" },
     { name: "Service", id: "service" },
-    { name: "Client", id: "client" },
+    { name: "Client", id: "testimonial" },
     { name: "Contact Us", id: "contact" }
 ]
 
@@ -30,7 +30,7 @@ const Nav = () => {
                     </li>
                 ))}
                 <li>
-                    <Link href="/" className="bg-main text-lg text-white py-2 px-5 rounded font-amatic">
+                    <Link href="https://hirewedogreetings.shop.mysharefox.com/" target="_blank" className="bg-main text-lg text-white py-2 px-5 rounded font-amatic">
                         Get Started
                     </Link>
                 </li>

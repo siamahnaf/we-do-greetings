@@ -4,20 +4,20 @@ import { Icon } from "@iconify/react";
 //Data
 const data = [
     {
-        question: "How long does shipping take?",
-        answer: "Shipping times vary depending on your location. On average, domestic orders are delivered within 3-5 business days, while international orders may take up to 2 weeks. Please note that these are estimated times and delays may occur due to unforeseen circumstances."
+        question: "Can signs be set up outside of normal installation times?",
+        answer: "We are here to meet the needs of your occasion. If you need a display assembled while the kids are at school or the recipient is at work, we will do our best to make it happen. Please make a note on the order form in the final section for additional instructions that you need a different installation time and we will work to accommodate it."
     },
     {
-        question: "Do you offer international shipping?",
-        answer: "Yes, we offer international shipping to most countries. During the checkout process, you can select your country from the list of available options. Please note that additional customs fees and import duties may apply, which are the responsibility of the recipient."
+        question: "How far in advance should I place my order?",
+        answer: "Our themed packages are very popular and book up fast on a strictly first come first serve basis. Please place your order early to ensure availability"
     },
     {
-        question: "Are discounts available for bulk orders?",
-        answer: "Yes, we offer discounts for bulk orders. If you are interested in making a bulk purchase, please contact our sales team with the details of your order, and they will provide you with a customized quote."
+        question: "Can I buy signs from you to keep?",
+        answer: "We are a rental only business.  Purchasing is not available at this time."
     },
     {
-        question: "Is customer support available 24/7?",
-        answer: "Our customer support team is available to assist you from Monday to Friday, 9 AM to 6 PM (EST). If you have any questions or need assistance, you can reach out to us through email or our live chat feature on the website."
+        question: "What happens in the event of severe weather?",
+        answer: "Weather can be unpredictable and may delay setups, or in the worst cases prevent us from setting up your display. Inclement weather includes lightning/thunderstorms, heavy rain, snow, high winds (40+mph) and any other Act of God that would put us or our garden display in harm's way. If the previously mentioned situations arise we will first attempt to reschedule, if that is not possible you will be given a full refund."
     }
 ];
 

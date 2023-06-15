@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
+import Rive from "@rive-app/react-canvas";
 
 
 //Data
@@ -14,7 +15,9 @@ const data = [
 const Logo = () => {
     return (
         <div className="text-white text-center">
-            <Image src="/images/logo-white.png" alt="Logo" width={1276} height={300} className="w-[200px] mx-auto" />
+            <div className="h-[50px] w-[250px] mx-auto">
+                <Rive src="/rive/logo.riv" width="100%" height="100%" />
+            </div>
             <h5 className="text-2xl font-fredoka mt-5 mb-5">Let&apos;s fun together</h5>
             <ul className="flex gap-2 justify-center">
                 {data.map((item, i) => (
