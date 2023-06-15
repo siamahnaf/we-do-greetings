@@ -15,7 +15,7 @@ const Achievement = () => {
             <Container>
                 <div className="bg-secondary py-12 px-10 rounded-2xl grid grid-cols-4 gap-5">
                     {data.map((item, i) => (
-                        <div className="text-center">
+                        <div className="text-center" key={i}>
                             <h1 className="text-7xl font-fredoka text-main mb-2">{item.number}</h1>
                             <p className="text-base font-fredoka">{item.title}</p>
                         </div>
