@@ -3,6 +3,7 @@ import useEmblaCarousel, { EmblaCarouselType } from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 //Data
@@ -45,30 +46,32 @@ const Carousel = () => {
 
     return (
         <div className="mt-10 relative">
-            <div className="overflow-hidden">
-                <div ref={emblaRef}>
-                    <div className="flex">
-                        {data.map((item, i) => (
-                            <div className="lg:flex-[0_0_33.33%] md:flex-[0_0_50%] lsm:flex-[0_0_70%] msm:flex-[0_0_90%] xxs:flex-[0_0_100%] px-5" key={i}>
-                                <div className="bg-primary_2 p-12 sm:p-12 xxs:p-6 rounded-lg text-center">
-                                    <p className="text-lg font-fredoka opacity-70">{item.message}</p>
-                                </div>
-                                <div className="flex gap-4 justify-center mt-4 items-center">
-                                    <div>
-                                        <Image src={item.profile} alt={item.name} width={300} height={300} className="w-[45px] h-[45px] rounded-full" />
+            <AnimationOnScroll animateIn="animate__rubberBand" duration={1.2}>
+                <div className="overflow-hidden">
+                    <div ref={emblaRef}>
+                        <div className="flex">
+                            {data.map((item, i) => (
+                                <div className="lg:flex-[0_0_33.33%] md:flex-[0_0_50%] lsm:flex-[0_0_70%] msm:flex-[0_0_90%] xxs:flex-[0_0_100%] px-5" key={i}>
+                                    <div className="bg-primary_2 p-12 sm:p-12 xxs:p-6 rounded-lg text-center">
+                                        <p className="text-lg font-fredoka opacity-70">{item.message}</p>
                                     </div>
-                                    <div>
-                                        <h5 className="text-base font-fredoka opacity-70">{item.name}</h5>
-                                        <p className="text-base font-amatic">{item.city}</p>
+                                    <div className="flex gap-4 justify-center mt-4 items-center">
+                                        <div>
+                                            <Image src={item.profile} alt={item.name} width={300} height={300} className="w-[45px] h-[45px] rounded-full" />
+                                        </div>
+                                        <div>
+                                            <h5 className="text-base font-fredoka opacity-70">{item.name}</h5>
+                                            <p className="text-base font-amatic">{item.city}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        ))}
+                            ))}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-            <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+                <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+                <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+            </AnimationOnScroll>
         </div>
     );
 };

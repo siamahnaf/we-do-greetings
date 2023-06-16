@@ -1,5 +1,6 @@
 import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 import { Icon } from "@iconify/react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 //Data
 const data = [
@@ -26,30 +27,32 @@ const data = [
 const FaqTwo = () => {
     return (
         <div>
-            <Accordion transition transitionTimeout={250}>
-                {data.map((item, i) => (
-                    <AccordionItem
-                        key={i}
-                        contentProps={{ className: "transition-[height] duration-[250] ease-[cubic-bezier(0,0,0,1)] font-oxygen" }}
-                        header={({ state: { isEnter } }) => (
-                            <>
-                                <p className="flex-1 text-left">{item.question}</p>
-                                <div className={`transition-all duration-300 ease-in-out ${isEnter ? "rotate-180" : ""}`}>
-                                    <Icon className={`text-2xl transition-all duration-500 ease-in-out ${isEnter ? "text-white" : "text-hover"}`} icon="mdi:arrow-bottom-drop-circle" />
-                                </div>
-                            </>
-                        )}
-                        buttonProps={{
-                            className: ({ isEnter }) =>
-                                `flex w-full gap-5 p-5 rounded-lg font-fredoka transition-all duration-500 ease-in-out ${isEnter ? "bg-main" : "bg-primary_2"}`
-                        }}
-                        className="rounded-lg bg-secondary my-4"
-                        panelProps={{ className: "p-6" }}
-                    >
-                        {item.answer}
-                    </AccordionItem>
-                ))}
-            </Accordion>
+            <AnimationOnScroll animateIn="animate__fadeInRight" duration={0.9}>
+                <Accordion transition transitionTimeout={250}>
+                    {data.map((item, i) => (
+                        <AccordionItem
+                            key={i}
+                            contentProps={{ className: "transition-[height] duration-[250] ease-[cubic-bezier(0,0,0,1)] font-oxygen" }}
+                            header={({ state: { isEnter } }) => (
+                                <>
+                                    <p className="flex-1 text-left">{item.question}</p>
+                                    <div className={`transition-all duration-300 ease-in-out ${isEnter ? "rotate-180" : ""}`}>
+                                        <Icon className={`text-2xl transition-all duration-500 ease-in-out ${isEnter ? "text-white" : "text-hover"}`} icon="mdi:arrow-bottom-drop-circle" />
+                                    </div>
+                                </>
+                            )}
+                            buttonProps={{
+                                className: ({ isEnter }) =>
+                                    `flex w-full gap-5 p-5 rounded-lg font-fredoka transition-all duration-500 ease-in-out ${isEnter ? "bg-main" : "bg-primary_2"}`
+                            }}
+                            className="rounded-lg bg-secondary my-4"
+                            panelProps={{ className: "p-6" }}
+                        >
+                            {item.answer}
+                        </AccordionItem>
+                    ))}
+                </Accordion>
+            </AnimationOnScroll>
         </div>
     );
 };

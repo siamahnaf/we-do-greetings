@@ -14,6 +14,7 @@ import Happiness from "@/Sections/Happiness";
 import Testimonial from "@/Sections/Testimonial";
 import Vendor from "@/Sections/Vendor";
 import Faq from "@/Sections/Faq";
+import Checker from "@/Sections/Checker";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Service />
       <Video />
       <Book />
+      <Checker />
       <Memory />
       <Happiness />
       <Testimonial />

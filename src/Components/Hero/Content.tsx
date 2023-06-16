@@ -1,6 +1,7 @@
 import { Link } from "react-scroll/modules";
 import { Icon } from "@iconify/react";
 import Rive from "@rive-app/react-canvas";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Content = () => {
     return (
