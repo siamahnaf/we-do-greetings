@@ -9,8 +9,8 @@ const Card = () => {
     return (
         <div className="mt-20 grid md:grid-cols-3 xxs:grid-cols-1 gap-5">
             {data.map((item, i) => (
-                <AnimationOnScroll animateIn="animate__rubberBand" duration={1.2} delay={i * 50}>
-                    <div key={i} className="rounded-xl bg-primary_2 text-center p-12 xl:p-16 sm:p-12 xxs:p-6">
+                <AnimationOnScroll animateIn="animate__rubberBand" duration={1.2} delay={i * 50} key={i}>
+                    <div className="rounded-xl bg-primary_2 text-center p-12 xl:p-16 sm:p-12 xxs:p-6">
                         <div className="w-16 h-16 mx-auto rounded-full bg-white flex items-center justify-center">
                             <Icon className="text-3xl text-main" icon={item.icon} />
                         </div>

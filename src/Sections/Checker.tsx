@@ -11,7 +11,7 @@ const Checker = () => {
                 <AnimationOnScroll animateIn="animate__fadeInUp" duration={1.5}>
                     <h5 className="text-5xl sm:text-5xl xxs:text-4xl font-fredoka text-center mb-5">Check The Delivery</h5>
                     <div id="deliverychecker-container" data-widget-id="1648b7d18e4ef7"></div>
-                    <Script strategy="lazyOnload">
+                    <Script strategy="lazyOnload" id="checker">
                         {`
                 (function() {
                     var a = document.createElement("script");

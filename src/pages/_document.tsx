@@ -4,7 +4,7 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head />
-      <body className="overflow-hidden">
+      <body className="overflow-x-hidden">
         <Main />
         <NextScript />
       </body>

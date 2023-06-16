@@ -22,7 +22,7 @@ const Touch = () => {
                 <li className="my-2">
                     <Link href="tel:+01525300747" className="flex gap-2 items-center xxs:max-msm:justify-center">
                         <Icon className="text-lg" icon="entypo:old-phone" />
-                        <span>+01525300747</span>
+                        <span>01525300747</span>
                     </Link>
                 </li>
             </ul>
