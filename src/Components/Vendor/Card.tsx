@@ -14,7 +14,7 @@ const data = [
 
 const Card = () => {
     return (
-        <div className="grid grid-cols-4 gap-5 mt-16">
+        <div className="grid grid-cols-4 smd:grid-cols-4 sm:grid-cols-2 xxs:grid-cols-1 gap-5 mt-16">
             {data.map((item, i) => (
                 <div className="bg-white p-6 rounded-lg" key={i}>
                     <Image src={item.image} alt={item.alt} width={2010} height={600} />

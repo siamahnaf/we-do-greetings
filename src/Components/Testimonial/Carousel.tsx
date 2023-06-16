@@ -13,7 +13,7 @@ const Carousel = () => {
         loop: true,
         containScroll: "trimSnaps",
         dragFree: true,
-        startIndex: 0,
+        startIndex: 0
     }, [Autoplay()])
     const [prevBtnEnabled, setPrevBtnEnabled] = useState(false)
     const [nextBtnEnabled, setNextBtnEnabled] = useState(false)
@@ -49,8 +49,8 @@ const Carousel = () => {
                 <div ref={emblaRef}>
                     <div className="flex">
                         {data.map((item, i) => (
-                            <div className="flex-[0_0_33.33%] px-5" key={i}>
-                                <div className="bg-primary_2 p-12 rounded-lg text-center">
+                            <div className="lg:flex-[0_0_33.33%] md:flex-[0_0_50%] lsm:flex-[0_0_70%] msm:flex-[0_0_90%] xxs:flex-[0_0_100%] px-5" key={i}>
+                                <div className="bg-primary_2 p-12 sm:p-12 xxs:p-6 rounded-lg text-center">
                                     <p className="text-lg font-fredoka opacity-70">{item.message}</p>
                                 </div>
                                 <div className="flex gap-4 justify-center mt-4 items-center">
@@ -85,7 +85,7 @@ interface ButtonProps {
 const PrevButton = ({ onClick, enabled }: ButtonProps) => {
     return (
         <button
-            className="absolute -left-3 top-1/2 -translate-x-1/2"
+            className="absolute -left-3 top-1/2 -translate-x-1/2 xxs:max-msm:hidden"
             onClick={onClick}
             disabled={!enabled}
         >
@@ -97,7 +97,7 @@ const PrevButton = ({ onClick, enabled }: ButtonProps) => {
 const NextButton = ({ onClick, enabled }: ButtonProps) => {
     return (
         <button
-            className="absolute -right-[36px] top-1/2 -translate-x-1/2"
+            className="absolute -right-[36px] top-1/2 -translate-x-1/2 xxs:max-msm:hidden"
             onClick={onClick}
             disabled={!enabled}
         >

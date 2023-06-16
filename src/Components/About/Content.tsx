@@ -4,7 +4,7 @@ const Content = () => {
     return (
         <div>
             <h5 className="text-2xl font-amatic text-main font-bold mb-5">Wo We Are</h5>
-            <h3 className="text-5xl font-fredoka mb-6">There’s nothing more magical than a child’s imagination</h3>
+            <h3 className="text-5xl sm:text-5xl xxs:text-4xl font-fredoka mb-6">There’s nothing more magical than a child’s imagination</h3>
             <p className="text-base font-oxygen opacity-60 mb-12">WE DO GREETINGS is rapidly rolling out its unique garden greeting service nationwide, with special event lawn greeting sign rentals for your special occasions.</p>
             <Link
                 to="service"

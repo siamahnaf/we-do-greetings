@@ -13,7 +13,7 @@ const Happiness = () => {
         <section>
             <div className="py-16 my-16 bg-hover relative overflow-hidden">
                 <Top />
-                <Container className="grid grid-cols-2 gap-8 items-center">
+                <Container className="grid grid-cols-2 md:grid-cols-2 xxs:grid-cols-1 gap-8 items-center">
                     <Content />
                     <Images />
                 </Container>

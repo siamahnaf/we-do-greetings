@@ -11,7 +11,7 @@ const Footer = () => {
         <footer id="contact">
             <div className="pt-36 bg-hover relative">
                 <Container>
-                    <div className="grid grid-cols-3 gap-10">
+                    <div className="grid md:grid-cols-3 msm:grid-cols-2 xxs:grid-cols-1 gap-10">
                         <Touch />
                         <Logo />
                         <Newsletter />

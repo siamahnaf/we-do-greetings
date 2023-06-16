@@ -41,7 +41,7 @@ const FaqTwo = () => {
                         )}
                         buttonProps={{
                             className: ({ isEnter }) =>
-                                `flex w-full p-5 rounded-lg font-fredoka transition-all duration-500 ease-in-out ${isEnter ? "bg-main" : "bg-primary_2"}`
+                                `flex w-full gap-5 p-5 rounded-lg font-fredoka transition-all duration-500 ease-in-out ${isEnter ? "bg-main" : "bg-primary_2"}`
                         }}
                         className="rounded-lg bg-secondary my-4"
                         panelProps={{ className: "p-6" }}

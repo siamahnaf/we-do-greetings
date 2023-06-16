@@ -25,10 +25,10 @@ const Newsletter = () => {
     //Submit
     const onSubmit: SubmitHandler<Inputs> = (value, e) => {
         setLoading(true)
-        emailjs.sendForm('service_ukixs3o', 'template_1breubb', e?.target, 'MIVj6S4qxwhuET6pj')
+        emailjs.sendForm('service_zyxtr5s', 'template_1breubb', e?.target, 'MIVj6S4qxwhuET6pj')
             .then((result) => {
                 setLoading(false);
-                setMessage('Email received! I will contact you soon.');
+                setMessage("Thanks for your subscribing our newsletter!");
                 reset();
             }, (error) => {
                 setLoading(false);
@@ -37,7 +37,7 @@ const Newsletter = () => {
     }
 
     return (
-        <div className="text-white">
+        <div className="text-white msm:max-md:col-span-2">
             <h5 className="text-2xl font-fredoka mb-5">Newsletter.</h5>
             <p className="text-base font-oxygen opacity-80">
                 Signup for our newsletter to get updated information, insight, or promotions.
@@ -59,7 +59,7 @@ const Newsletter = () => {
                 </div>
                 {message &&
                     <div className="text-center mt-3">
-                        <p>Something went wrong!</p>
+                        <p>{message}</p>
                     </div>
                 }
             </form>

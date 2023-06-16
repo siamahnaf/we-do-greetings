@@ -6,7 +6,7 @@ import { data } from "./Data";
 
 const Card = () => {
     return (
-        <div className="mt-20 grid grid-cols-3 gap-5">
+        <div className="mt-20 grid grid-cols-3 md:grid-cols-3 lsm:grid-cols-2 xxs:grid-cols-1 gap-5">
             {data.map((item, i) => (
                 <div key={i} className="rounded-xl bg-primary overflow-hidden">
                     <Image src={item.image} alt={item.title} width={1024} height={682} className="aspect-[4/3] object-cover object-center" />

@@ -14,7 +14,7 @@ const images = [
 const Hero = () => {
     return (
         <section id="home">
-            <div className="relative">
+            <div className="relative overflow-hidden">
                 <Zoom
                     scale={1.5}
                     indicators={false}
@@ -24,7 +24,7 @@ const Hero = () => {
                     duration={4000}
                 >
                     {images.map((item, index) => (
-                        <div key={index} className="relative aspect-[8/5]">
+                        <div key={index} className="relative aspect-[8/5] md:aspect-[8/5] smd:aspect-[8/7] msm:aspect-[8/8] sm:aspect-[8/10] xs:aspect-[8/13] xxs:aspect-[8/14]">
                             <Image src={item.url} alt={item.alt} fill className="object-cover object-center" />
                         </div>
                     ))}

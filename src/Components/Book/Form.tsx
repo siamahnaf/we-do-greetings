@@ -28,10 +28,10 @@ const Form = () => {
     //Submit
     const onSubmit: SubmitHandler<Inputs> = (value, e) => {
         setLoading(true)
-        emailjs.sendForm('service_ukixs3o', 'template_1breubb', e?.target, 'MIVj6S4qxwhuET6pj')
+        emailjs.sendForm('service_zyxtr5s', 'template_4gh1dkt', e?.target, 'MIVj6S4qxwhuET6pj')
             .then((result) => {
                 setLoading(false);
-                setMessage('Email received! I will contact you soon.');
+                setMessage("We Receive Your Bookings!");
                 reset();
             }, (error) => {
                 setLoading(false);
@@ -40,10 +40,10 @@ const Form = () => {
     }
 
     return (
-        <div className="bg-white shadow-[0px_0px_30px_0px_rgba(0,0,0,0.1)] rounded-lg p-10">
+        <div className="bg-white shadow-[0px_0px_30px_0px_rgba(0,0,0,0.1)] rounded-lg p-10 sm:p-10 xxs:p-6">
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="grid grid-cols-2 gap-3">
-                    <div>
+                    <div className="xxs:max-sm:col-span-2">
                         <label htmlFor="name" className="cursor-pointer font-amatic text-lg font-bold opacity-80 mb-1 block">Name</label>
                         <input
                             id="name"
@@ -54,7 +54,7 @@ const Form = () => {
                             required
                         />
                     </div>
-                    <div>
+                    <div className="xxs:max-sm:col-span-2">
                         <label htmlFor="phone" className="cursor-pointer font-amatic text-lg font-bold opacity-80 mb-1 block">Phone</label>
                         <input
                             id="phone"
@@ -65,7 +65,7 @@ const Form = () => {
                             required
                         />
                     </div>
-                    <div>
+                    <div className="xxs:max-sm:col-span-2">
                         <label htmlFor="email" className="cursor-pointer font-amatic text-lg font-bold opacity-80 mb-1 block">Email</label>
                         <input
                             id="email"
@@ -76,7 +76,7 @@ const Form = () => {
                             required
                         />
                     </div>
-                    <div>
+                    <div className="xxs:max-sm:col-span-2">
                         <label htmlFor="date" className="cursor-pointer font-amatic text-lg font-bold opacity-80 mb-1 block">Date</label>
                         <input
                             id="date"
@@ -107,7 +107,7 @@ const Form = () => {
                 </div>
                 {message &&
                     <div className="text-center mt-3">
-                        <p>Something went wrong!</p>
+                        <p>{message}</p>
                     </div>
                 }
             </form>
