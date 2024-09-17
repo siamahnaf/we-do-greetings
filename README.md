@@ -1,38 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1704611347/logo_w4vxp0.png" width="100" height="100">
 
-## Getting Started
+# We do greetings portfolio
+A Personalised letter signage for birthdays, retirements, anniversaries, and more. Vibrant, weather-resistant and ideal for any events. And you can get a secure booking by greeting website!
 
-First, run the development server:
+## Live demo
+[https://siamahnaf.github.io/switch-book/](https://radiant-belekoy-faf94d.netlify.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Run Locally
+- **Download:** Start by downloading the code.
+- **Install Dependencies:** Run `npm i` to install the necessary dependencies.
+- **Launch:** Launch your development environment with `npm run dev`.
+- **Access:** Simply open your web browser and navigate to `localhost:3000`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key features
+- Created with NextJS and Tailwind CSS
+- Specially designed for any greetings booking web application
+- Responsive design
+- Beautiful and interactive design
+- All booking functionality
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Visit greeting's main website
+https://www.wedogreetings.co.uk/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Tech Toolset
+- React.js
+- Typescript
+- Next.js
+- Tailwind CSS
+  
+<img src="https://lh3.googleusercontent.com/d/1GTNFYoW8YfRF8AM5Is6rKsIB4No1ImJ_" width="34px" height="30px" /> <img src="https://lh3.googleusercontent.com/d/1kPoywoLU5K4wbJyToKeB-zjVLgIHnkx6" width="30px" height="30px" /> <img src="https://lh3.googleusercontent.com/d/1zquFI2JBL5KaJVxhyWFh1NhBy6_8bTkl" width="135px" height="30px" /> <img src="https://lh3.googleusercontent.com/d/1lmIwVWT-LhcovOkCj4CF8paBGMeP9BNE" width="225px" height="30px" />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Screenshot
+<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1695824157/scrnli_9_27_2023_8-08-32_PM_o0xxhj.jpg" width="100%" height="100%" style="display: block; margin: 0 auto;">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Webinuxs
+<img src="https://res.cloudinary.com/dub0dpenl/image/upload/v1726562110/Personal/xbetf83o2drangioe1ia.png" width="100" height="100">
+Explore Webinuxs, where we bring your web and mobile app applications to life at competitive prices. Our dedicated team is committed to delivering exceptional quality and innovative web and mobile application as your needs.
 
-## Learn More
+## Support
+Need assistance? Drop me a line at mail@siamahnaf.com or hop on over to my lively <a href="https://wa.me/message/UAXIYNES562EN1"><img src="https://lh3.googleusercontent.com/d/13j7AgG4Pp_eWgaRoV6XH49vDU7-5TbEm" width="15" height="15"></a> messenger.
 
-To learn more about Next.js, take a look at the following resources:
+## Author(s)
+- [www.siamahnaf.com](https://www.siamahnaf.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Who I am?
+I'm Siam Ahnaf, a passionate developer who loves to learn new things and create awesome projects. I enjoy working on front-end, back-end, and mobile app development and have experience with various programming languages and frameworks.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Frontend Development**
+I specialize in creating custom web and mobile applications as your unique needs and requirements.
+- **Backend Development**
+My backend development services cover everything from database design to server-side logic.
+- **Cloud Services**
+I take care of deploying your web applications to production environments securely.
 
-## Deploy on Vercel
+## Connect with me
+<div style="display: flex; align-items: center; gap: 3px;">
+<a href="https://wa.me/message/UAXIYNES562EN1"><img src="https://lh3.googleusercontent.com/d/13j7AgG4Pp_eWgaRoV6XH49vDU7-5TbEm" width="40" height="40"></a>
+<a href="https://www.linkedin.com/in/siamahnaf/" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1hqME_Okrps0P1tKi18Rl66W7oa334daw" width="40" height="40"></a>
+<a href="https://twitter.com/siamahnaf198" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1gCRI58aHh_TXF7uGOMu9F-E2eN4x6AyS" width="40" height="40"></a>
+<a href="https://www.facebook.com/siamahnaf198/" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1gttW7FCHrt2fNCaVQXEYC_wUCYbOYpTJ" width="40" height="40"></a>
+<a href="https://t.me/siamahnaf198" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1v8rpDVzSc4GmXS8axq5y3fR1i-OnRRaY" width="40" height="40"></a>
+<a href="https://www.npmjs.com/~siamahnaf" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1t6V2ZlSUyDhwgSaJ5CCj_wDxkQIYQKjR" width="40" height="40"></a>
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+------------
+
+<p align="center" color="red"><a href="https://www.siamahnaf.com/">www.siamahnaf.com</a></p>
